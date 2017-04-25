@@ -1,0 +1,564 @@
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://129.106.8.73:8080/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step1: no key.
+step6: redirect CLI.
+step16:cliDomain:https://cliengage-dev.uth.tmc.edu
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://129.106.8.73:8080/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step6: redirect CLI.
+step16:cliDomain:https://cliengage-dev.uth.tmc.edu
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://cac-dev.uth.tmc.edu/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step1: no key.
+step1: no key.
+step1: no key.
+step1: no key.
+step6: redirect CLI.
+step16:cliDomain:https://cliengage-dev.uth.tmc.edu
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://129.106.8.73:8080/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://cac-dev.uth.tmc.edu/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://cac-dev.uth.tmc.edu/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://cac-dev.uth.tmc.edu/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step1: no key.
+step1: no key.
+step1: no key.
+step6: redirect CLI.
+step16:cliDomain:https://cliengage-dev.uth.tmc.edu
+step1: no key.
+step3: isSomeoneLoggedIn.
+step2: has  key.
+step7: begin try HasKey.
+step12:OtherLogin
+step13:super_admin
+step15:user[0]
+step15: ticket:David2
+-----------------------------
+http://129.106.8.73:8080/Umbraco/
+-----------------------------
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step4: CliLogin.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
+step1: no key.
+step3: isSomeoneLoggedIn.
