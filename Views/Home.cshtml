@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Circle Activity Collection Pre-K</title>
+	<link rel="stylesheet" type="text/css" href="/css/Chapters.css">	
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic,400italic,300italic,900' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<style>
+body {
+    background-color: rgba(162,208,92,0.75);
+	/*background-image: url("http://circleonline-dev.uth.edu/media/1251/cac-splash-responsive_bg.png");*/
+}	
+#circle_1 {
+    color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(216,80,161,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(216,80,161,1),      /* inner fusha */
+        0 0 60px 30px rgba(255,255,255,0.80),        /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),       /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);       /* outer white */
+}	
+		
+#circle_2 {
+    color: rgba(255,255,255,1);
+	font-weight: bold;
+	text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(139,83,188,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(139,83,188,1),      /* inner grape */
+        0 0 60px 30px rgba(255,255,255,0.80),        /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),       /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);       /* outer white */
+}	
+#circle_3 {
+    position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(186,66,66,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(186,66,66,1),      /* inner rust */
+        0 0 60px 30px rgba(255,255,255,0.80),       /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),      /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);      /* outer white */
+}	
+		
+#circle_4 {
+    position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+    color: rgba(255,255,255,1);
+	font-weight: bold;
+	text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(106,84,186,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(106,84,186,1),      /* inner purple */
+        0 0 60px 30px rgba(255,255,255,0.80),        /* outer white */
+
+        0 0 100px 60px rgba(255,255,255,0.50),       /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);       /* outer white */
+}	
+#circle_5 {
+    color: rgba(255,255,255,1);
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(191,94,50,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(191,94,50,1),      /* inner brown */
+        0 0 60px 30px rgba(255,255,255,0.80),       /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),      /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);      /* outer white */
+}	
+		
+#circle_6 {
+    color: rgba(255,255,255,1);
+	font-weight: bold;
+	text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;	
+	background-color: rgba(60,126,191,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(60,126,191,1),      /* inner blue*/
+        0 0 60px 30px rgba(255,255,255,0.80),        /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),       /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);       /* outer white */
+}	
+		
+#circle_7 {
+    color: rgba(136,173,73,1);
+	font-weight: bold;
+	text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;	
+	background-color: rgba(255,255,255,1);
+    box-shadow:
+        inset 0 0 60px 50px rgba(255,255,255,1),      /* inner white */
+        0 0 60px 30px rgba(255,255,255,0.80),         /* outer white */
+        0 0 100px 60px rgba(255,255,255,0.50),        /* outer white */
+        0 0 140px 90px rgba(255,255,255,0.20);        /* outer white */
+}
+
+.c1 {
+    /*Square Div*/
+		/*width: 100px;
+    	height: 100px;
+    	background-color: red;*/
+	/*Circle Div*/
+	border-radius: 50%;
+	width: 24%;
+	height: auto;
+	padding-top: 24%;
+	background: #ef8913;
+    position: relative;
+    -webkit-animation-name: c1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: c1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes c1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:750px; top:400px;}
+    100% {background-color:red; left:0px; top575px;}
+}
+
+/* Standard syntax */
+@keyframes c1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:750px; top:400px;}
+    100% {background-color:red; left:0px; top:575px;}
+}
+.c2 {
+    /*Square Div*/
+		/*width: 100px;
+    	height: 100px;
+    	background-color: red;*/
+	/*Circle Div*/
+	border-radius: 50%;
+	width: 12%;
+	height: auto;
+	padding-top: 12%;
+	background: #A9B95C;
+    position: relative;
+    -webkit-animation-name: c2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: c2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes c2 {
+    0%   {background-color:red; left:500px; top:0px;}
+    25%  {background-color:yellow; left:-10px; top:200px;}
+    50%  {background-color:blue; left:700px; top:-50px;}
+    75%  {background-color:green; left:30px; top:-80px;}
+    100% {background-color:red; left:320px; top:-100px;}
+}
+
+/* Standard syntax */
+@keyframes c2 {
+    0%   {background-color:red; left:500px; top:0px;}
+    25%  {background-color:yellow; left:-10px; top:200px;}
+    50%  {background-color:blue; left:700px; top:-50px;}
+    75%  {background-color:green; left:30px; top:-80px;}
+    100% {background-color:red; left:320px; top:-100px;}
+}
+.c3 {
+    /*Square Div*/
+		/*width: 100px;
+    	height: 100px;
+    	background-color: red;*/
+	/*Circle Div*/
+	border-radius: 50%;
+	width: 4%;
+	height: auto;
+	padding-top: 4%;
+	background: #ef8913;
+    position: relative;
+    -webkit-animation-name: c3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: c3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes c3 {
+    0%   {background-color:red; left:800px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:-50px;}
+    50%  {background-color:blue; left:600px; top:-200px;}
+    75%  {background-color:green; left:100px; top:-400px;}
+    100% {background-color:red; left:675px; top:-10px;}
+}
+
+/* Standard syntax */
+@keyframes c3 {
+    0%   {background-color:red; left:800px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:-50px;}
+    50%  {background-color:blue; left:600px; top:-200px;}
+    75%  {background-color:green; left:100px; top:-400px;}
+    100% {background-color:red; left:675px; top:-10px;}
+}	
+</style>	
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+	<div class="c1"></div>
+	<div class="c2"></div>
+	<div class="c3"></div>
+
+<div class="row">
+	<div class="col-sm-12">
+		&nbsp;
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		&nbsp;
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12" align="left">
+		<div class="col-sm-4" align="center">
+			<div>
+				&nbsp;
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				<img src="https://circleonline.uth.edu/media/1296/cac-splash-responsive_logo.png" height="350px" width="350px" alt="CIRCLE Activity Collection" />
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				&nbsp;
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12" align="left">
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://circleonline.uth.edu/1-introduction/">
+				<img src="https://circleonline.uth.edu/media/1298/cac-splash-responsive_prek-eng.png" height="200px" width="200px" alt="PreK English" />
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://cliengage.org/public/parents/activities-for-kids/">
+				<img src="https://circleonline.uth.edu/media/1300/cac-splash-responsive_parents-eng.png" height="200px" width="200px" alt="Parent English" />
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://circleonline.uth.edu/infant_toddler_english/">
+				<img src="https://circleonline.uth.edu/media/1295/cac-splash-responsive_infant-toddler-eng.png" height="200px" width="200px" alt="Infant & Toddler English" />
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12" align="left">
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12" align="left">
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://circleonline.uth.edu/1-introducci%C3%B3n/">
+				<img src="https://circleonline.uth.edu/media/1299/cac-splash-responsive_prek-span.png" height="200px" width="200px" alt="PreK Espanol" />
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://cliengage.org/public/parents/activities-for-kids/activities-for-kids-spanish/">
+				<img src="https://circleonline.uth.edu/media/1301/cac-splash-responsive_parents-span.png" height="200px" width="200px" alt="Padres Espanol" />
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-4" align="center">
+			<div>
+				<a href="https://circleonline.uth.edu/infant_toddler_spanish/">
+				<img src="https://circleonline.uth.edu/media/1297/cac-splash-responsive_infant-toddler-span.png" height="200px" width="200px" alt="Bebes y Ninos Pequenos" />
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12" align="center" style="background-color: rgba(0,0,0,1);">
+		<img src="https://circleonline.uth.edu/media/1294/footerhome.png" width="310" height="114" alt="UT Health Footer" />
+	</div>
+</div>
+
+</body>
+</html>
