@@ -1,0 +1,333 @@
+@font-face{
+    font-family: "Gil-Sans-MT";
+    src: url('/media/1036/33535gillsansmt.ttf'),
+    url('/media/1037/33535gillsansmt.eot'); /* IE */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+    font-family: "CenturyGothic";
+    src: url('/media/1184/century_gothic.ttf'),
+	url('/media/1186/century_gothic.eot'); /* IE */
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;			/* This removes the border around the viewport in old versions of IE */
+	width: 100%;
+	background: #fff;
+	font-size: 1em;
+	font-family: Gil-Sans-MT;
+	
+}
+.extras {
+	color: #956e46;
+	font-size: .8em;
+}
+
+.dividerline {
+	position: relative;
+	right: 10px;
+	
+}
+
+.acttitle {
+	position: relative;
+	left: 5px;
+}
+
+#chaptitle {
+	position: relative;
+	bottom: 90px;
+	left: 200px;
+}
+
+.sectionnumber {
+	font-style: italic;
+	font-family: Gil-Sans-MT;
+	font-size: 18px;
+	color: #686868;
+	
+}
+span.sectiontitle {
+	color: #3c2e28;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#setting li, #materials li {
+	background: url('http://circleonline.uth.edu/media/1086/checkbullet.png') no-repeat left top;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	list-style-type: none;
+}
+
+#setting ul, #materials ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#setting {
+	width: 292px;
+	float: left;
+}
+
+#materials {
+	width: 292px;
+	float: right;
+}
+
+
+#container {
+	width: 990px;
+	margin: 0 auto;
+}
+
+#leftcolumn {
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+	
+}
+
+#leftcolumn a {
+	text-decoration: none;
+	font-family: Gil-Sans-MT;
+	color: #4d4d4d;
+}
+
+#leftcolumn a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #DE2928;
+}
+#leftcolumn li {
+	padding-bottom: 10px;
+}
+#leftcolumn ul {
+	list-style-type: none;
+	right: 35px;	
+	bottom: 20px;
+	width: 200px;
+	position: relative;
+}
+
+#rightcolumn {
+	float: right;
+	width: 970px;
+	margin-top: 0px;
+	background-color: #f2f2f2;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	z-index: 400;
+}
+
+a {
+	color:#369;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+h1, h2, h3 {
+	margin: .8em 0 .2em 0;
+	padding: 0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+
+}
+img {
+	margin:0px 0 0px;
+}
+#ads img {
+	display: block;
+	padding-top: 10px;
+}
+
+/* Header styles */
+#header {
+	width: 990px;
+	height: 150px;
+	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#logo {
+	float: left;
+	width: 164px;
+	height: 138px;
+	text-align: center;
+}
+
+#navigation {
+	float: right;
+	width: 826px;
+	height: 138px;
+	text-align: center;
+	position: relative;
+	z-index:700;
+}
+#navtop {
+	width: 826px;
+	height: 79px;
+	text-align: center;
+}
+#navbottom {
+	clear: both;
+	width: 826px;
+	height: 59px;
+	text-align: center;
+}
+
+#bar
+{
+	width: 990px;
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;
+	z-index: 999;
+	display: table-cell;
+}
+
+#search {
+	float: left;
+	height: 50px;
+	text-align: center;
+	z-index: 999;
+	vertical-align: middle;
+
+}
+
+#print {
+	float: right;
+	text-align: center;
+	z-index: 999;
+	vertical-align: middle;
+
+
+}
+
+
+#breadcrumbs {
+	float: left;
+	text-align: center;
+	z-index: 700;
+	vertical-align: middle;
+
+}
+
+
+
+/* Footer styles */
+#footer {
+	clear: both;
+	width: 750px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#footer p {
+	padding: 0px;
+	margin: 0;
+	color: #666666;
+	font-size: .8em;
+}
+
+
+/* Section Menu */
+
+#sectionmenu {
+	height: 52px;
+	font-family: Gil-Sans-MT;
+	z-index: 500;
+	position: relative;
+	clear: both;
+	margin-top: 30px;
+}
+
+#sectionmenu a {
+	text-decoration: none;
+	color: #686868;
+	font-family: Gil-Sans-MT;
+	
+}
+
+#sectionmenu a:hover {
+	background-color: #ffffff;
+	
+}
+
+#sectionmenu ul {
+  	text-align: left;
+  	display: inline;
+  	margin: 0;
+  	padding: 15px 4px 17px 0;
+  	list-style: none;
+	font-family: Gil-Sans-MT;
+  }
+#sectionmenu ul li {
+  	font: bold 16px Gil-Sans-MT;
+  	display: inline-block;
+  	width: 970px;
+  	margin-right: -4px;
+  	position: relative;
+  	padding: 10px;
+  	background: #f1d2bd;
+  	color: #5e5b58;
+	padding-left:10px;
+  	border-bottom:2px solid #ffffff;
+  	cursor: pointer;
+	line-height:15px;
+
+}
+#sectionmenu ul li:hover {
+  	background: #f1d2bd;
+  	color: #5e5b58;
+	padding-left:10px;
+}
+#sectionmenu ul li ul {
+  	padding: 0;
+  	position: absolute;
+  	top: 52px;
+  	left: 0;
+  	width: 150px;
+  	-webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+  	display: block;
+  	opacity: 1;
+  	visibility: visible;
+  	-webkit-transiton: opacity 0.2s;
+  	-moz-transition: opacity 0.2s;
+  	-ms-transition: opacity 0.2s;
+  	-o-transition: opacity 0.2s;
+  	-transition: opacity 0.2s;
+}
+#sectionmenu ul li ul li { 
+  	background: #f8e9de; 
+  	display: block; 
+  	color: #686868;
+  	width: 200px;
+  	font: bold 12px sans-serif;
+	padding-left:10px;
+}
+#sectionmenu ul li ul li:hover { 
+	background-color:#ffffff; color: #ff0000;
+	padding-left: 10px;
+}
+
+#sectionmenu ul li:hover ul {
+  	display: block;
+  	opacity: 1;
+  	visibility: visible;
+}/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

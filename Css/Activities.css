@@ -1,0 +1,553 @@
+@font-face{
+    font-family: "Gil-Sans-MT";
+    src: url('/media/1036/33535gillsansmt.ttf'),
+    url('/media/1037/33535gillsansmt.eot'); /* IE */
+	font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+    font-family: "CenturyGothic";
+    src: url('/media/1184/century_gothic.ttf'),
+	url('/media/1186/century_gothic.eot'); /* IE */
+	font-weight: normal;
+font-style: normal;
+}
+
+.Video {
+   list-style-image: url('http://circleonline.uth.edu/media/1167/videoicon.png');
+}
+
+.Scripted {
+   list-style-image: url('http://circleonline.uth.edu/media/1168/scriptedicon.png');
+}
+		
+.VideoScripted {
+   list-style-image: url('http://circleonline.uth.edu/media/1169/bothicon.png');
+
+}
+
+@media print {
+	
+
+	
+		
+    #middlecolumn {
+        width: 780px !important;
+		position:absolute !important;
+		top:50px !important;
+		font-size:24px
+	
+    }
+	
+	
+	
+	#breadcrumbs {
+	position:relative !important;
+	left:150px !important;
+	width:800px !important;
+		font-size:24px;
+	}
+	
+	#logo {
+	position:relative !important;
+		top:138px !important;
+		
+	}
+
+	#header {
+       position:absolute;
+		top:-138px !important;
+    }
+	#rightcolumn {
+        width: 170px !important;
+
+	}
+	#search, #print, #leftcolumn, iframe {
+		display:none !important;	
+	}
+	#activityheaders {
+text-align:center !important;
+	margin-bottom:10px;
+	width:100%;
+		margin-top: 50px;
+}
+
+#activityheader1 {
+	font-size:2em;
+	font-family: "CenturyGothic";
+	color: #956e46;	
+	display:inline-block;
+}
+#activityheader2 {
+	font-size:3em;
+	font-family: "CenturyGothic";
+	color: #956e46;	
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+}
+
+.extras {
+
+}
+
+iframe {
+  text-align:center;
+  width:580px;
+	height: 326px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#brush1 {
+	background: url('/media/1141/activity-banner-2-best-practices.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush2 {
+	background: url('/media/1141/activity-banner-2-best-practices.png') no-repeat center top;
+	width:581px;
+	height:22px;
+
+}
+#brush3 {
+	background: url('/media/1142/activity-banner-3-social-emotional.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush4 {
+	background: url('/media/1143/activity-banner-4-phonological-awareness.png') no-repeat center top;
+	width:581px;
+	height:22px;
+
+}
+#brush5 {
+	background: url('/media/1145/activity-banner-5-written-expression.png') no-repeat center top;
+	width:581px;
+	height:22px;
+
+}
+#brush6 {
+	background: url('/media/1144/activity-banner-6-language-development.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush7 {
+	background: url('/media/1148/activity-banner-7-book-reading.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush8 {
+	background: url('/media/1146/activity-banner-8-letter-knowledge.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush9 {
+	background: url('/media/1149/activity-banner-9-mathematics.png') no-repeat center top;
+	width:581px;
+	height:22px;
+}
+#brush10 {
+	background: url('/media/1147/activity-banner-10-science-and-technology.png') no-repeat center top;
+width:581px;
+	height:22px;
+}
+
+.box {
+	border:2px solid #956e46;
+	margin-bottom:50px;
+}
+
+.box h2 {
+	background:#956e46;
+	color:white;
+	padding:5px;
+	margin:0px;
+	text-align:center;
+	font-size:1.5em;
+	font-weight:normal;
+}
+
+.box p {color:#333;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 8.5pt !important;
+  	font-family: Verdana !important;
+}
+
+.box ul li {
+	font-size: 8.5pt !important;
+  	font-family: Verdana !important;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	font-size:1em;
+	font-family: Gil-Sans-MT;
+}
+
+.dividerline {
+	position:relative;
+		right:10px;
+	
+}
+
+#activityheaders {
+text-align:center !important;
+	margin-bottom:10px;
+	width:100%;
+}
+
+#activityheader1 {
+	font-size:2em;
+	font-family: "CenturyGothic";
+	color: #956e46;	
+	display:inline-block;
+}
+#activityheader2 {
+	font-size:3em;
+	font-family: "CenturyGothic";
+	color: #956e46;	
+	margin-bottom:10px;
+	display:inline-block;
+}
+.acttitle {
+position:relative;
+		left:5px;
+}
+
+#chaptitle {
+position:relative;
+	bottom:90px;
+	left:125px;
+}
+
+.sectionnumber {
+font-style: italic;
+	font-family: Gil-Sans-MT;
+	font-size:18px;
+	color:#686868;
+	
+}
+span.sectiontitle {
+color:#3c2e28;
+	font-size:26px;
+	font-weight:bolder;
+}
+
+#setting li, #materials li {
+background: url('/media/1086/checkbullet.png') no-repeat left top;
+padding-left: 30px;
+	padding-bottom: 5px;
+	list-style-type: none;
+}
+
+#setting ul, #materials ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+#setting {
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+#materials {
+	float:right;
+	width:50%;
+display:inline-block;
+}
+
+
+#container {
+	width:990px;
+	margin: 0 auto;
+}
+
+#leftcolumn {
+	float:left;
+	width:200px;
+	margin-top:0px;
+	position:relative;
+	right:10px;
+	text-align: left;
+	
+}
+
+#leftcolumn a {
+	text-decoration:none;
+	font-family: Gil-Sans-MT;
+	color:#4d4d4d;
+}
+
+#leftcolumn a:hover {
+	text-decoration:none;
+	background-color:#ffffff;
+	color:#DE2928;
+}
+#leftcolumn li {
+padding-bottom:10px;
+}
+#leftcolumn ul {
+	list-style-type: none;
+	right:35px;	
+	width:200px;
+	position:relative;
+}
+
+#middlecolumn {
+	float: left;
+	width:580px;
+	margin-top:20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+	position:relative;
+	z-index:400;
+	text-align: left;
+}
+
+#rightcolumn {
+	float: right;
+	width:170px;
+	margin-top:0px;
+	padding-top: 120px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+	position:relative;
+	z-index:400;
+	text-align: left;
+}
+
+a {
+	color:#369;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+
+}
+}
+img {
+	margin:0px 0 0px;
+}
+#ads img {
+	display:block;
+	padding-top:10px;
+}
+
+/* Header styles */
+#header {
+	width:990px;
+	height:198px;
+	text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+	float:left;
+	width:164px;
+	height:138px;
+	text-align:center;
+}
+
+#navigation {
+	float: right;
+	width:826px;
+	height:138px;
+	text-align:center;
+		position:relative;
+	z-index:700;
+}
+#navtop {
+	width:826px;
+	height:79px;
+	text-align:center;
+}
+#navbottom {
+	clear: both;
+	width:826px;
+	height:59px;
+	text-align:center;
+}
+
+#bar
+{
+	width:990px;
+	text-align:center;
+	height: 50px;
+	vertical-align: middle;
+		z-index:999;
+	display:table-cell;
+}
+
+#search {
+	float:left;
+	height: 50px;
+	text-align:center;
+	z-index:999;
+	vertical-align:middle;
+
+}
+
+#print {
+	float:right;
+	text-align:center;
+		z-index:999;
+		vertical-align:middle;
+
+
+}
+
+
+#breadcrumbs {
+	float: left;
+	text-align:center;
+	z-index:700;
+	width: 670px;
+	vertical-align:middle;
+	text-align: left;
+}
+
+
+/* Footer styles */
+#footer {
+	clear:both;
+	text-align:center;
+		margin-top:50px;
+	margin-bottom:50px;
+}
+#footer p {
+	padding:0px;
+	margin:0;
+	color: #666666;
+	font-size: .8em;
+}
+
+
+/* Section Menu */
+
+#sectionmenu {
+	height:62px;
+	font-family: Gil-Sans-MT;
+	z-index:500;
+	position:relative;
+	clear:both;
+}
+
+#sectionmenu a {
+text-decoration:none;
+	color: #686868;
+	font-family: Gil-Sans-MT;
+	
+}
+
+#sectionmenu a:hover {
+	background-color:#ffffff;
+	
+}
+
+#sectionmenu ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+	font-family: Gil-Sans-MT;
+  }
+#sectionmenu ul li {
+  font: bold 16px Gil-Sans-MT;
+  display: inline-block;
+  width:970px;
+  margin-right: -4px;
+  position: relative;
+  padding: 10px;
+  background: #f8e9de;
+  color: #686868;
+  border-bottom:2px solid #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+	line-height:15px;
+}
+#sectionmenu ul li:hover {
+  background: #f1d2bd;
+  color: #5e5b58;
+}
+#sectionmenu ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+#sectionmenu ul li ul li { 
+  background: #f8e9de; 
+  display: block; 
+  color: #686868;
+  width: 200px;
+  font: bold 12px sans-serif;
+}
+#sectionmenu ul li ul li:hover { 
+	background-color:#ffffff; color: #ff0000;
+}
+
+#sectionmenu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+.activityhead {
+font-size: 1.5em; color: #956e46;
+}
+
+.sectionahead {
+font-size: 2em; line-height: 40px; color: #545454; font-family: CenturyGothic;
+}
+
+.sectionbhead {
+font-weight: bolder; color: #000000;
+}
+
+.calloutbox {
+padding: 15px; background-color: #D8C4A9;     display: block; float: right; width: 270px; color: #525252; margin:10px;
+}
+
+.sectiontitle {
+font-size: 2.5em; line-height: 40px; color: #898989;
+}
+

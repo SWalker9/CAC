@@ -1,0 +1,53 @@
+html {
+background-color:#8e3971;
+  background: url(https://circleonline.uth.edu/media/1150/colorful-chalk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home {
+	width:990px;
+	margin: 0 auto;
+	text-align:center;}
+
+
+#engbutton {
+	position: relative;
+	float:left;
+	left: 257px;
+}
+
+
+#spanbutton {
+	float: right;
+	position: relative;
+	right: 261px;
+}
+
+#buttonouterdiv {
+	position: relative;
+	bottom:357px;
+	width: 990px;
+	margin: 0 auto;
+	text-align:center;}
+
+
+#footerhome{
+	width: 990px;
+	height: 114px;
+	margin: 0 auto;
+	text-align:center;}
+
+#outerfooterhome{
+	position: absolute;
+	bottom:0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #29292a;
+	margin: 0px;
+	text-align:center;}
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
